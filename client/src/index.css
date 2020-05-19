@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.warehouses{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 150px;
+}
+
+.warehouses .warehouse{
+  justify-self: center;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.warehouses .warehouse span{
+  justify-self: center;
+  font-size: 25px;
+}
+
+.warehouses .warehouse .key{
+  font-size: 20px;
+  color: #5600e7;
+  align-self: start;
+}
+
+form{
+  display: grid;
+  margin-top: 100px;
+  justify-content: center;
+  grid-gap: 10px
+}
+
+form input{
+  font-family: 'Open Sans', sans-serif;
+  height: 30px;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+form button{
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: #5600e7;
+  color: white;
+}
+
